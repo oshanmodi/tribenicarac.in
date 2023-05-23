@@ -1,0 +1,204 @@
+footer h4 {
+	color: #ededed;
+}
+
+.navbar {
+	font-family: "Muli", sans-serif;
+	margin-bottom: 0;
+	background-color: #fff;
+	font-size: 13px !important;
+	word-spacing: 2px;
+	box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.navbar li a,
+.navbar .navbar-brand {
+	color: #000 !important;
+}
+
+.navbar-nav li a:hover {
+	color: #00ABF2 !important;
+}
+
+.navbar-nav li.active a {
+	color: #00ABF2 !important;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+.navbar-brand {
+	background-image: url("../images/logo.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 210px;
+}
+
+.open .dropdown-toggle {
+	color: #fff;
+}
+
+.dropdown-menu li a {
+	color: #000 !important;
+}
+
+.dropdown-menu li a:hover {
+	background-color: #eee !important;
+}
+
+.caption a {
+	cursor: pointer;
+}
+
+#quick-links {
+	list-style: none;
+}
+
+#quick-links li {
+	float: left;
+	margin-left: 0.4%;
+}
+
+.top-bar {
+	font-size: 14px;
+	background-color: rgb(55, 156, 230);
+	color: white;
+	padding-top: .7em;
+}
+
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+	width: 100%;
+	margin: auto;
+}
+
+.slides {
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+}
+
+.nav li .active {
+	background-color: #fff important;
+}
+
+.menus {
+	padding: 1em 0em;
+	line-height: 48px;
+}
+
+.txt {
+	font-size: 12px;
+	padding-left: 10%;
+}
+
+.txt #quick-links {
+	padding-left: 0px;
+}
+
+.cover-img {
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	max-height: 600px;
+	height: 450px;
+}
+
+.repair {
+	background-image: url("../images/Service1.png");
+}
+
+.maint {
+	background-image: url("../images/Service2.jpg");
+}
+
+.inst {
+	background-image: url("../images/Service3.jpg");
+}
+
+.diag {
+	background-image: url("../images/Service4.jpg");
+}
+
+.gas {
+	background-image: url("../images/Service5.jpg");
+}
+
+.carscanner {
+	background-image: url("../images/car-scanner1.jpg");
+}
+
+.multi {
+	background-image: url("../images/multi.png");
+}
+
+
+#social_side_links {
+	position: fixed;
+	top: 50%;
+	right: 0;
+	padding: 0;
+	list-style: none;
+	z-index: 9999;
+}
+
+#social_side_links li a {
+	display: block;
+}
+
+#social_side_links li a img {
+	display: block;
+	max-width: 40px;
+	padding: 10px;
+	-webkit-transition: background .2s ease-in-out;
+	-moz-transition: background .2s ease-in-out;
+	-o-transition: background .2s ease-in-out;
+	transition: background .2s ease-in-out;
+}
+
+#social_side_links li a:hover img {
+	background: rgba(0, 0, 0, .2);
+}
+
+#helpOps .active a {
+	color: rgb(55, 156, 230);
+	;
+}
+
+.test-li {
+	list-style: none;
+}
+
+.test-li {
+	padding: 20px;
+	height: 100px;
+	border: 1px solid black;
+}
+
+@media screen and(max-width:500px) {
+	.navbar-header .navbar-brand {
+		display: block;
+		width: 100%;
+		margin: 0px;
+	}
+
+	.top-bar {
+		padding-top: 0px;
+	}
+
+	.top-bar div {
+		padding-left: 0px;
+		margin: 0px;
+	}
+
+	.col-md-3.services-right ul {
+		display: relative;
+	}
+}
+
+@media screen and(max-width:300px) {
+	.col-md-3.services-right ul {
+		display: relative;
+	}
+}
